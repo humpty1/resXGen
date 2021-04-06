@@ -1,0 +1,42 @@
+09/10/2017  ``
+   добавил самолетик plane.resx
+24/07/2016  1.02.00
+   сделал ресурс для карт мелких уровней
+   файл  tiles.resx 
+
+
+
+09/08/2015  1.01.00
+  создание resx файлов
+            						    if (extension.ToLower() == ".jpg") {
+                						 	i = Image.FromFile(values[1], true);
+                              rw.AddResource(values[0], i);  
+                            }
+                            else if (extension.ToLower() == ".png") {
+                						 	i = Image.FromFile(values[1], true);
+                              rw.AddResource(values[0], i);  
+                            }
+                            else if (extension.ToLower() == ".bmp") {
+                						 	i = Image.FromFile(values[1], true);
+                              rw.AddResource(values[0], i);  
+                            }
+                            else {
+                 						 	bs = File.ReadAllBytes(values[1]);
+                              rw.AddResource(values[0], bs);  
+                 					  }
+
+
+09/08/2015  1.00.00
+  создание resx файлов
+
+
+ 
+22/05/2015  04.01 
+  ресх файл создаю из списка 
+
+  не удалось сделать ресх файл со ссылками
+  сделал ресх файл с маленькими картинками для меню     pnglst.resx 
+  и для моргающего глаза     eyelst.resx 
+   применение глаза см.   "G:\agp\128\prj\gdi\Advanced .NET Framework (GDI+) - Animation with GDI+\"
+
+03.01 получил доступ к ресурсу
